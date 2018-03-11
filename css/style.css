@@ -52,6 +52,19 @@ p {
   margin-top: 25px;
   text-align: right;
 }
+#header .contacts p {
+  font: bold 18px/14px Arial;
+  color: black;
+}
+#header .contacts .contacts__phone,
+#header .contacts .contacts__email {
+  color: green;
+  font: normal 14px/14px Arial;
+}
+#header .contacts .contacts__free-call {
+  color: #666666;
+  font: normal 12px/14px Arial;
+}
 #content {
   padding-bottom: 50px;
 }
